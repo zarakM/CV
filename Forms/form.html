@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <form action="../profile.html" method="GET">
+        <p>Username:
+            <input placeholder="Enter your name" type="text" name="username" size="50">
+        </p>
+        <hr/>
+        <p>password:
+            <input placeholder="Enter your pass" type="password" name="pass">
+        </p>
+        <hr/>        
+        <textarea name="address" cols="50" rows="2">Please Enter your Address</textarea>
+        <hr/>
+        
+        <input type="radio" name="country" value="pakistan"/>pakistan <br>
+        <input type="radio" name="country" value="india"/>india<br>
+        <input type="radio" name="country" value="kenya" checked/>kenya<br>
+        <input type="radio" name="country" value="england"/>england<br>
+        <input type="radio" name="country" value="canada"/>canada<br>
+
+
+        <hr/>    
+        <input type="checkbox" name="country" value="pakistan"/>pakistan <br>
+        <input type="checkbox" name="country" value="india"/>india<br>
+        <input type="checkbox" name="country" value="kenya" checked/>kenya<br>
+        <input type="checkbox" name="country" value="england"/>england<br>
+        <input type="checkbox" name="country" value="canada"/>canada<br>
+        
+        <hr>
+        <input type="submit" />
+    </form>
+
+
 </body>
+
 </html>
