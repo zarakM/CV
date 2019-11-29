@@ -9,35 +9,90 @@
 </head>
 
 <body>
-
-    <form action="../profile.html" method="GET">
-        <p>Username:
-            <input placeholder="Enter your name" type="text" name="username" size="50">
-        </p>
+    <form action="../profile.html">
+        <label for="username">Username:
+            <input placeholder="Enter your name" type="text" name="usernamesx" size="50" required>
+        </label>
         <hr/>
-        <p>password:
+        <label for="passcode">password:
             <input placeholder="Enter your pass" type="password" name="pass">
-        </p>
-        <hr/>        
+        </label>
+        <hr/>
         <textarea name="address" cols="50" rows="2">Please Enter your Address</textarea>
         <hr/>
         
-        <input type="radio" name="country" value="pakistan"/>pakistan <br>
-        <input type="radio" name="country" value="india"/>india<br>
-        <input type="radio" name="country" value="kenya" checked/>kenya<br>
-        <input type="radio" name="country" value="england"/>england<br>
-        <input type="radio" name="country" value="canada"/>canada<br>
-
-
-        <hr/>    
-        <input type="checkbox" name="country" value="pakistan"/>pakistan <br>
-        <input type="checkbox" name="country" value="india"/>india<br>
-        <input type="checkbox" name="country" value="kenya" checked/>kenya<br>
-        <input type="checkbox" name="country" value="england"/>england<br>
-        <input type="checkbox" name="country" value="canada"/>canada<br>
+        <input type="radio" name="country" value="pakistan" />
+        <br>
+        <input type="radio" name="country" value="india" />india
+        <br>
+        <input type="radio" name="country" value="kenya" />kenya
+        <br>
+        <input type="radio" name="country" value="england" />england
+        <br>
+        <input type="radio" name="country" value="canada" />canada
+        <br>
+        
+        
+        <hr/>
+        <input type="checkbox" name="countries" value="pakistan" checked/>pakistan
+        <br>
+        <input type="checkbox" name="countries" value="india" checked/>india
+        <br>
+        <input type="checkbox" name="countries" value="kenya" checked/>kenya
+        <br>
+        <input type="checkbox" name="countries" value="england" />england
+        <br>
+        <input type="checkbox" name="countries" value="canada" />canada
+        <br>
         
         <hr>
-        <input type="submit" />
+        
+        <!-- Dropdown list -->
+        <select name="food">
+            <option value="pasta"> Pasta </option>
+            <option value="chinese"> chinese </option>
+            <option value="Desi"> Desi </option>
+            <option value="fast_food" selected> fast food </option>
+        </select>
+        
+        <hr>
+        
+        <input type="file" name="song" />
+        <hr><br>
+        
+        <fieldset>
+            <legend> Contact detail</legend>
+            <label>user:
+                <input type="text" />
+            </label>
+            <br>
+            <label>pass:
+                <input type="text" />
+            </label>
+            <br>
+            <label>code:
+                <input type="text" />
+            </label>
+            <br>
+        </fieldset>
+        
+        <hr>
+        
+        <input type="date" name="date" />
+        
+        <hr>
+        <input type="email" name="email" />
+        
+        <hr>
+        <input type="url" name="url" />
+        
+        <hr>
+        <input type="search" name="search" placeholder="search" />
+        <input type="hidden" name="id" value="1012" />
+        
+        <hr>
+        <input type="image" src="../images/first.jpg" width="50px" height="20px" />
+
     </form>
 
 

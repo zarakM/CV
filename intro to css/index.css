@@ -1,0 +1,62 @@
+
+p{
+    margin-left: 50px;
+}
+a{
+    margin-left: inherit
+}
+
+/* h1.red{
+    color: red
+}
+p{
+    color: blue 
+} */
+
+/* General sibling slector */
+/* p~a{
+    color: crimson
+}
+
+Adjacent Sibling selctor
+p+a{
+    color: crimson
+} */
+
+
+/* Descemndant selector */
+/* li a{
+    color: crimson;
+} */
+/* child selector */
+/* li>a{
+    cox1`lor: crimson;
+} */
+
+
+/* id & class selector  */
+
+/* #go{
+    color: brown
+}
+
+.go{
+    color: aqua
+}
+
+.background{
+    background-color: black
+} */
+
+/* universal selector  */
+/* *{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+} */
+
+/* type selector  */
+/* h1{
+    color: bisque
+}
+p{
+    color: blue
+} */
