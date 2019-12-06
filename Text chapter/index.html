@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+    .one {
+        vertical-align: sub
+    }
+
+    .para {
+        text-indent: 100px;
+        text-align: justify
+    }
+
+    .blue {
+        color: aqua
+    }
+
+    .red {
+        color: brown
+    }
+
+    .shadow {
+        background-color: #eeeeee;
+        color: #666666;
+        text-shadow: 3px 3px 1px blueviolet
+    }
+    
+    /* PSEUDO ELEMENTS */
+    .para::first-letter{
+        font-size: 2em
+    }
+
+    .para::first-line{
+        text-decoration: underline;
+    }
+
+    /* PSEUDO CLASSES */
+    a:visited{
+        color: chocolate
+    }
+
+    a:link{
+        color: #dc143c
+    }
+    a:active{
+        color: lightcoral
+    }
+
+    a:focus{
+        color: lawngreen
+    }
+    input:focus{
+        background-color: #000;
+        color: greenyellow
+    }
+    input:active{
+        background-color: forestgreen;
+        color: black
+    }
+
+    p:active{
+        background-color: indigo
+    }
+</style>
+
+<body>
+
+    <input type="text"/>
+    <a href="#image">Hello world</a>
+    <a href="#imae">Hello world</a>
+
+    <hr>
+    <p class="para blue">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+        more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <p class="para">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+        more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <p class="para shadow">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+        more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <p class="para">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+        more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <hr/>
+
+    <div>
+        <p>
+            <img id="image" class="one" src="../images/first.jpg" width="300px" height="300px"> this this this this this this this this this this this this this this this this this this this
+        </p>
+    </div>
+
+</body>
+
+</html>
