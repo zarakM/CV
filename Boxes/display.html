@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .inline{
+            display: inline;
+            border-image: url('/media/examples/border-diamonds.png') 30;
+            border-width: 20px;
+        }
+        .block{
+            /* display: block;*/
+            /* display: inline; */
+            visibility: hidden;
+
+        }
+        .shadow{
+            box-shadow: inset -5px -5px 10px blue ;
+            border-radius: 50px
+        }
+
+        .diver{
+            height: 500px;
+            width: 500px;
+            border-radius: 100%;
+            background-color: teal
+        }
+    </style>
+</head>
+<body>
+
+    <div class="diver"></div>
+
+    <p class="shadow"> dooooooooo<i class="block">to</i>oooooo </p>
+    <h1 class="inline"> dooooooo </h1>
+    <h1 class="inline"> dooooooo </h1>
+    
+</body>
+</html>
