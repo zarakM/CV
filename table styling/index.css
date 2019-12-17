@@ -17,3 +17,6 @@ th{
 th:hover,td:hover{
     background-color: turquoise;
 }
+td{
+    empty-cells: hide
+}
