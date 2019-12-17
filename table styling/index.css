@@ -1,0 +1,19 @@
+table{
+    width: 80%;
+    margin-left: 10%;
+    border: 10px solid turquoise;
+}
+td,th{
+    padding: 1em;
+    text-align: right;
+    background-color: aliceblue    
+}
+th{
+    border: 3px dotted tomato;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: cursive;
+}
+th:hover,td:hover{
+    background-color: turquoise;
+}
