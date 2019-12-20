@@ -1,0 +1,12 @@
+.title{
+    width: 100px;
+    float: left;
+    text-align: right;
+    padding-right: 10px
+}
+input#submit{
+    margin-left: 110px
+}
+a{
+    cursor: help;
+}
