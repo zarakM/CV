@@ -28,10 +28,21 @@
 // num = num + 1
 
 
-var value = 3
-var sum =++value
+// var value = 3
+// var sum =++value
 
-// console.log(++value) // show=3 value= 4
+// // console.log(++value) // show=3 value= 4
 
-console.log(sum)   //4
-console.log(value) //4
+// console.log(sum)   //4
+// console.log(value) //4
+
+var expression = 4 * 3 - 4 / 2 - 1
+// var expression = (4 * 3) - (4 / 2) - 1
+
+// (10 +8 +8+7)*17
+
+console.log(expression)
+
+//8
+//11
+//-13
