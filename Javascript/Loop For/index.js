@@ -19,16 +19,29 @@ for (var index = 0; index < 4; index++) {
 }
 
 
-for (var i = 0; i < 2; i++) {
-    for (var j = 0; j < 3; j++) {
-        console.log("["+i+"]"+" ["+j+"]")
+for (var i = 0; i <= 5; i++) {
+
+    if (i % 2 !== 0) {
+        for (var j = 0; j < i; j++) {
+            console.log("*")
+        }
+        console.log("\n")
+    }
+
+}
+
+for (var i = 3; i >= 0; i--) {
+    if (i % 2 !== 0) {
+        for (var j = 0; j < i; j++ ) {
+            console.log("*")
+        }
+        console.log("\n")
     }
 }
 
 
-  *
- ***
-*****
- ***
-  *
-  
+// *
+// ***
+// *****
+// ***
+// *
