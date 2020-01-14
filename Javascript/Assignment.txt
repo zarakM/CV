@@ -1,0 +1,17 @@
+Tip Calculator
+
+
+
+1: Input amount of 3 foods
+2: total bill shown on alert + Gst 17%
+3: Asked for how many people are sharing food
+4: show how much each people cost
+
+
+Authentication
+
+1: Input username & password
+2: Check there is no special character (% * / $ @) in username
+3: Check there is no name in password like if
+   username is zarak password doesnot include zarak
+
