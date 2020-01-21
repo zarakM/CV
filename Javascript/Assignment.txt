@@ -14,4 +14,12 @@ Authentication
 2: Check there is no special character (% * / $ @) in username
 3: Check there is no name in password like if
    username is zarak password doesnot include zarak
+     false                           true
+if (username.indexOf("/")>-1&&username.indexOf("@")>-1){
+    alert("not logined")
+}
+if( password.indexOf(username)>-1 ){
 
+}
+
+zrak@
