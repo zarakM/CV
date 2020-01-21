@@ -1,3 +1,4 @@
+
 // // alert("welcome")
 
 // var user = "zarak"
@@ -9,6 +10,28 @@
 // user
 // // console.log(user)
 
-var quote = "Your's sincerly"
 //your's sincerly
-console.log(quote)
+
+
+
+
+
+
+
+
+
+
+
+
+// var quote = "Your's sincerly
+
+var name = "zarak"
+console.log( name )
+
+var number = 254
+console.log( number )
+
+var one = 10
+var two = 10
+
+console.log( one + two )
