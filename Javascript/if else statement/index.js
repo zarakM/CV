@@ -37,16 +37,60 @@
 //     console.log("second")    
 // }
 
-var age=50
-var res="U.S."
+// var age=50
+// var res="U.S."
 
 
-if( res === "U.S." ){
-    console.log("resident")    
-    if(age > 65 || age < 21){
-        console.log("yes")
-    }
-    else{
-        console.log("not yes")        
-    }
-}
+// if( res === "U.S." ){
+//     console.log("resident")    
+//     if(age > 65 || age < 21){
+//         console.log("yes")
+//     }
+//     else{
+//         console.log("not yes")        
+//     }
+// }
+
+//NEW CLASS
+
+// var marks = prompt("Enter your marks")
+// var given = "supply"
+
+// if ( marks > 800 && marks <1200) {
+//     console.log( "First div")
+// }
+// else if(marks > 600 && marks <800){
+//     console.log( "Second div")
+// }
+// else{
+//     console.log( "Marks are invalid" )
+// }
+// 301 to 400 A grade
+// 401 to 500 B grade
+// 501 to 600 C grade
+
+
+
+// var name = "10"
+
+// if (name === 10){
+//     if (name === 10){
+    
+//         console.log(true)
+//     }
+//     console.log(true)
+// }
+
+
+// PAKISTANI
+// 18< B-FORM
+// 18> cnic
+
+
+var name1 = "zarak"
+var name2 = "zain"
+var name3 = "kaleem"
+//              0       1       2
+var names = ["zarak","zain","kaleem"]
+
+console.log( names )
