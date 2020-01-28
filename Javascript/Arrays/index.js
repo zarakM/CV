@@ -16,18 +16,27 @@
 // console.log(position)
 
 //New class
+// console.log( cities )//Baltimore
+// cities[4]= "Karchi"
+
+// cities.push("Islamabad","KAr")
+// cities.pop()
+
+// console.log( cities )//Chicago
+
+// cities.shift()
+// cities.unshift("Peshawar")
+
+// cities.splice(2, 1, "Islamabad","log")
+
 
 
 var cities = ["Baltimore", "Chicago", "Denver", "Los", "Sea"]
 
-// console.log( cities )//Baltimore
+console.log(cities)
 
-cities[4]= "Karchi"
+var slicedArray = cities.slice(0,3)
 
-console.log( cities )//Chicago
+console.log(slicedArray)
+console.log(cities)
 
-cities.push("Islamabad")
-cities.push("Lahore")
-cities.pop()
-
-console.log( cities )//Chicago
