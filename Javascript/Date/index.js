@@ -25,16 +25,25 @@
 // console.log(newYear.getHours())
 // console.log(newYear.getMinutes())
 // console.log(newYear.getTime())
-var date = new Date()
-var date = new Date("June 30, 2026")
-var saleEnd = new Date(2020,1)
-console.log(saleEnd)
+// var date = new Date()
+// var date = new Date("June 30, 2026")
+// var saleEnd = new Date(2020,1)
+// console.log(saleEnd)
 
 
-saleEnd.setHours(10)
-saleEnd.setFullYear(2025)
-saleEnd.setDate(12)
-saleEnd.setMinutes(102)
-saleEnd.setSeconds(43)
+// saleEnd.setHours(10)
+// saleEnd.setFullYear(2025)
+// saleEnd.setDate(12)
+// saleEnd.setMinutes(102)
+// saleEnd.setSeconds(43)
 
-console.log(saleEnd)
+// console.log(saleEnd)
+
+function add(one, two) {
+    console.log(one + two)
+}
+
+add(8,10)
+add(2, 19)
+add(5, 93)
+add(10, 49)
