@@ -43,7 +43,7 @@ function add(one, two) {
     console.log(one + two)
 }
 
-add(8,10)
+add(8, 10)
 add(2, 19)
 add(5, 93)
 add(10, 49)
