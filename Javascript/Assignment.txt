@@ -23,3 +23,34 @@ if( password.indexOf(username)>-1 ){
 }
 
 zrak@
+
+
+
+
+Want 4 funtion to do CRUD opeartion
+Create read update delete 
+
+Create
+parameter - array data
+add data into array
+
+Read
+parameter - array
+Return full array one by one
+
+update
+param - array index data
+Update element of array at specific index
+
+delete
+param - array index
+delete array element at specific index
+
+
+var alphabets = ["a","b"]
+
+function create(array,data){
+    array.push(data)
+}
+
+create(alphabets,"z")
