@@ -54,3 +54,12 @@ function create(array,data){
 }
 
 create(alphabets,"z")
+
+
+
+
+
+
+
+
+
